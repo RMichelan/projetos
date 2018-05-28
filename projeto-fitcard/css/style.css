@@ -1,0 +1,102 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #868e96; }
+
+#botoes {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center; }
+
+.container-titulo {
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;}
+  a:hover {
+  text-decoration: none;
+  color: #565656;}
+
+h1 {
+  color: #fff;
+  padding-bottom: 30px;
+  text-align: center;
+  font-weight: bold; }
+
+h4 {
+  color: #fff;
+  padding-bottom: 30px; }
+
+/* Botões */
+li {
+  position: relative;
+  float: left;
+  padding: 10px;
+  list-style: none; }
+  li a {
+    padding: 7px 15px 7px 15px;
+    position: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: none;
+    font-family: inherit;
+    font-size: 15px; }
+
+#btn-vermelho {
+  border: 2px solid #ff7c7c;
+  color: #ff7c7c; }
+  #btn-vermelho:hover {
+    color: #fff;
+    background-color: #ff7c7c; 
+    transition: 0.6s; }
+
+#btn-azul {
+  border: 2px solid #a3fff2;
+  color: #a3fff2; }
+  #btn-azul:hover {
+    background-color: #a3fff2;
+    color: #5e5e5e;
+    transition: 0.6s; }
+
+#btn-verde {
+  border: 2px solid #b0ffa3;
+  color: #b0ffa3; }
+  #btn-verde:hover {
+    background-color: #b0ffa3;
+    color: #5e5e5e;
+    transition: 0.6s; }
+
+#btn-amarelo {
+  border: 2px solid #f7ffa3;
+  color: #f7ffa3; }
+  #btn-amarelo:hover {
+    background-color: #f7ffa3;
+    color: #5e5e5e;
+    transition: 0.6s; }
+
+
+
+.container-form{
+  margin-top: 50px;
+  padding: 0px 200px 0px 200px;
+}
+
+.container-table p {
+  color: white;
+}.container-table span {
+  color: white;
+  font-weight: bold;
+}.container-table table {
+  margin-top: 100px;
+  padding: 0px 50px 0px 50px;
+}
+
+
+
